@@ -12,19 +12,19 @@
 
 | Thema                                                                      | Skala | Mängel* | Verbesserungsmöglichkeiten* |
 |----------------------------------------------------------------------------|-------|--------|----------------------------|
-| Datenquelle klar definiert (Projekt 2: zusätzlich Abgrenzung zu Projekt 1) | 10    | -      | -                          |
-| Scraping vorhanden                                                         | 10    | -      | -                          |
-| Scraping automatisiert                                                     | 10    | -      | -                          |
-| Datensatz vorhanden                                                        | 10    | -      | -                          |
-| Erstellung Datensatz automatisiert, Verwendung Datenbank                   | TODO  | TODO   | TODO                       |
-| Datensatz-Grösse ausreichend, Aufteilung Train/Test, Kennzahlen vorhanden  | 8     | Kleiner Datensatz   | 15 Flüge für die Berechnung ist eine etwas kleiner datensatz für die Berechnung der Verspätungen.                       |
-| Modell vorhanden                                                           | TODO  | TODO   | TODO                       |
-| Modell-Versionierung vorhanden (ModelOps)                                  | TODO  | TODO   | TODO                       |
-| App: auf lokalem Rechner gestartet und funktional                          | TODO  | TODO   | TODO                       |
-| App: mehrere unterschiedliche Testcases durch Reviewer ausführbar          | TODO  | TODO   | TODO                       |
-| Deployment: Falls bereits vorhanden, funktional und automatisiert          | TODO  | TODO   | TODO                       |
-| Code: Git-Repository vorhanden, Arbeiten mit Branches / Commits            | TODO  | TODO   | TODO                       |
-| Code: Dependency Management, Dockerfile, Build funktional                  | TODO  | TODO   | TODO                       |
+| Datenquelle klar definiert (Projekt 2: zusätzlich Abgrenzung zu Projekt 1) | 2    | -      | -                          |
+| Scraping vorhanden                                                         | 2    | -      | -                          |
+| Scraping automatisiert                                                     | 2   | -      | -                          |
+| Datensatz vorhanden                                                        | 3   | -      | -                          |
+| Erstellung Datensatz automatisiert, Verwendung Datenbank                   | 1  | noch keine Datenbank.   |  Datensätze der verspäteten Flüge in MongoDB hochladen.                    |
+| Datensatz-Grösse ausreichend, Aufteilung Train/Test, Kennzahlen vorhanden  | 1     | Kleiner Datensatz   | 15 Flüge für die Berechnung ist eine etwas kleiner datensatz für die Berechnung der Verspätungen.                       |
+| Modell vorhanden                                                           | 2  | -   | -                       |
+| Modell-Versionierung vorhanden (ModelOps)                                  | 2  | -   | -                       |
+| App: auf lokalem Rechner gestartet und funktional                          | 2  | -   | -                       |
+| App: mehrere unterschiedliche Testcases durch Reviewer ausführbar          | 2  | -   | -                       |
+| Deployment: Falls bereits vorhanden, funktional und automatisiert          | 0  | Noch nicht Deployed   | Deployment über Azure.                      |
+| Code: Git-Repository vorhanden, Arbeiten mit Branches / Commits            | 0  | Noch kein Repository   |                       |
+| Code: Dependency Management, Dockerfile, Build funktional                  | 0  | Noch nicht in Container   | Mit Generative AI YAML File erstellen lassen für Container Network.|
 
 \* wenn fehlend: mögliche Schwierigkeiten und Lösungen besprechen
 
